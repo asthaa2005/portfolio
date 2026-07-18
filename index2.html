@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Astha Gupta — Frontend Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo">Astha</div>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+  <ul id="navList">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#learning">Learning</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <canvas id="hero-canvas"></canvas>
+  <div class="hero-inner">
+    <div class="hero-text">
+      <div class="eyebrow">Portfolio</div>
+      <h1>Astha<br>Gupta<span class="accent"></span></h1>
+      <div class="role">Frontend Developer <span class="sep">/</span> Web Developer <span class="sep">/</span> BCA Student</div>
+      <p class="bio">I build clean, responsive interfaces with HTML, CSS &amp; JavaScript — currently a 3rd-year BCA student in Varanasi, sharpening my craft in React and modern tooling one project at a time.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects →</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="scroll-cue"><span class="line"></span>Scroll</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-photo reveal">
+        <div class="frame">
+          <img src="profile.jpg" alt="Astha Gupta">
+        </div>
+      </div>
+      <div class="about-copy">
+        <div class="eyebrow reveal">About Me</div>
+        <h2 class="reveal" style="margin-bottom:22px;">Turning curiosity into working code.</h2>
+        <p class="reveal">Frontend Developer and BCA (3rd year) student with hands-on experience building self-driven projects using HTML5, CSS3, and JavaScript. Strong foundation in C, Python, and Data Structures &amp; Algorithms.</p>
+        <p class="reveal">Currently seeking a Frontend Development internship to apply core web development skills, learn React and modern tooling in a real team environment, and grow into a production-ready developer.</p>
+        <div class="about-facts reveal">
+          <div><div class="fact-label">Education</div><div class="fact-value">BCA — 3rd Year (2024–2027)</div></div>
+          <div><div class="fact-label">Focus</div><div class="fact-value">Frontend Development</div></div>
+          <div><div class="fact-label">Open To</div><div class="fact-value">Internships &amp; Collaborations</div></div>
+          <div><div class="fact-label">Location</div><div class="fact-value">Varanasi, Uttar Pradesh</div></div>
+        </div>
+        <div class="chips reveal"> 
+          <span class="chip">Sketching</span>
+          <span class="chip">Exploring New Technologies</span>
+          <span class="chip">Creative Designing</span>
+          <span class="chip">Cooking</span>
+          
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Toolkit</div>
+      <h2>What I build with</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <h4>Languages</h4>
+        <ul>
+          <li>C</li>
+          <li>Python</li>
+          <li>Data Structures &amp; Algorithms</li>
+        </ul>
+      </div>
+      <div class="skill-card reveal">
+        <h4>Web Technologies</h4>
+        <ul>
+          <li>HTML5, CSS3, JavaScript</li>
+          <li>Responsive Web Design</li>
+        </ul>
+      </div>
+      <div class="skill-card reveal">
+        <h4>Database</h4>
+        <ul>
+          <li>SQL</li>
+        </ul>
+      </div>
+      <div class="skill-card reveal">
+        <h4>Tools &amp; Platforms</h4>
+        <ul>
+          <li>GitHub, VS Code</li>
+          <li>MS Excel, MS Office</li>
+          <li>Tally Prime</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Selected Work</div>
+      <h2>Things I've shipped</h2>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <span class="pnum">01</span>
+        <h3>Expense Tracker</h3>
+        <div class="tags">HTML5 • CSS3 • JavaScript</div>
+        <p>A responsive expense tracking web app to manage daily income and expenses, using Local Storage to persist transaction records with a clean, mobile-friendly interface.</p>
+        <a class="view-link" href="https://astha8572-blip.github.io/Expense-Tracker/" target="_blank" rel="noopener">View Project →</a>
+      </div>
+
+      <div class="project-card reveal">
+        <span class="pnum">02</span>
+        <h3>Advanced Calculator</h3>
+        <div class="tags">HTML5 • CSS3 • JavaScript</div>
+        <p>A fully functional scientific calculator supporting all arithmetic operations, with a Light/Dark mode toggle and calculation history, built for usability and performance.</p>
+        <a class="view-link" href="https://astha8572-blip.github.io/Advanced-Calculator/" target="_blank" rel="noopener">View Project →</a>
+      </div>
+
+      <div class="project-card reveal">
+        <span class="pnum">03</span>
+        <h3>Video Conferencing UI</h3>
+        <div class="tags">HTML5 • CSS3</div>
+        <p>A modern, responsive landing page for a video conferencing platform, built with adaptive Flexbox and CSS Grid layouts with accessibility in mind.</p>
+        <a class="view-link" href="https://astha8572-blip.github.io/online-video-conferencing-web/" target="_blank" rel="noopener">View Project →</a>
+      </div>
+
+      <div class="project-card reveal">
+        <span class="pnum">04</span>
+        <h3>Amazon Homepage Clone</h3>
+        <div class="tags">HTML5 • CSS3</div>
+        <p>A pixel-focused clone of Amazon's homepage, recreating layout precision, product grids and navigation using pure HTML &amp; CSS.</p>
+        <a class="view-link" href="#" target="_blank" rel="noopener">View Project →</a>
+      </div>
+
+      <div class="project-card reveal">
+        <span class="pnum">05</span>
+        <h3>Rock Paper Scissors Game</h3>
+        <div class="tags">HTML5 • CSS3 • JavaScript</div>
+        <p>A responsive browser game where you play Rock, Paper, Scissors against the computer, with instant results and score tracking.</p>
+        <a class="view-link" href="https://astha8572-blip.github.io/Rock-papper-scissor-game/" target="_blank" rel="noopener">View Project →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- LEARNING PATH -->
+<section id="learning">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Learning Path</div>
+      <h2>Education &amp; Certifications</h2>
+    </div>
+    <div class="learning-grid">
+      <div class="reveal">
+        <div class="edu-item">
+          <div class="edu-head">
+            <h4>Bachelor of Computer Applications (BCA)</h4>
+            <span>2024 – 2027</span>
+          </div>
+          <p>Currently in 3rd Year — Focus: Data Structures &amp; Algorithms, Programming (C, Python), Web Development.</p>
+        </div>
+        <div class="edu-item">
+          <div class="edu-head">
+            <h4>Senior Secondary (CBSE)</h4>
+            <span>66.8%</span>
+          </div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-head">
+            <h4>Secondary (CBSE)</h4>
+            <span>82%</span>
+          </div>
+        </div>
+      </div>
+      <div class="reveal">
+        <ul class="cert-list">
+            
+          <li><span class="mark">01</span>Blood Doner</li>
+          <li><span class="mark">02</span> Virtual Internship in Frontend Development — CodeAlpha</li>
+          <li><span class="mark">03</span> MySQL Course — Cursa</li>
+          <li><span class="mark">04</span> Young AI for All — TCS iON</li>
+          <li><span class="mark">05</span> Tally &amp; Office Automation</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="reveal">
+        <div class="eyebrow">Let's Build Something</div>
+        <h2>Get in touch.</h2>
+        <p class="lead">Open to Frontend Development internships and collaborations. Reach out — I reply fast.</p>
+      </div>
+      <ul class="contact-info reveal">
+        <li><span class="clabel">Email</span> <a href="mailto:astha8572@gmail.com">astha8572@gmail.com</a></li>
+        <li><span class="clabel">Phone</span> <a href="tel:+917021392610">+91 7021392610</a></li>
+        <li><span class="clabel">Location</span> <a href="https://www.google.com/maps/place/Varanasi,+Uttar+Pradesh" target="_blank" rel="noopener">Varanasi, UP</a></li>
+        <li><span class="clabel">GitHub</span> <a href="https://github.com/astha8572-blip" target="_blank" rel="noopener">astha8572-blip</a></li>
+        <li><span class="clabel">LinkedIn</span> <a href="https://www.linkedin.com/in/asthaagupta20" target="_blank" rel="noopener">asthaagupta20</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Astha Gupta <span>/</span> Built with HTML, CSS, JS &amp; Three.js
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
